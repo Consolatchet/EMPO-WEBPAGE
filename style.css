@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    height: 100px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; 
+}
+
+.logo {
+    color: #fff;
+    font-size: 2rem;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 80px; 
+    margin-right: 10px; 
+}
+
+.navbar_items {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1rem;
+}
+
+nav a:hover {
+    color: #ff0000;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+.header_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_logo img {
+    max-width: 1px;
+    max-height: 1px;
+}
+
+main {
+    padding: 2rem calc((100vw - 1300px) / 2);
+}
+
+#home {
+    margin: 2rem;
+
+}
+
+.image-container {
+    background-image: url('Gym-Background-Final.jpg');
+    background-size: cover; 
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#home h1 {
+    margin: 1rem;
+    text-align: center;
+}
+
+#home button {
+    margin: 1rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    color: #fff;
+    background: #2b2b2b;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+#home button:hover {
+    background: #ff0000;
+    color: #000;
+    font-weight: bold;
+}
+
+#about {
+    padding: 20px;
+}
+
+#about h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#about p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#about p:first-of-type {
+    margin-top: 0;
+}
+
+#about p:last-of-type {
+    margin-bottom: 0;
+}
+
+#services {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+#services h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.service-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.service-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px 20px 20px 70px; /* Add padding to create space for the image */
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-item img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 30px;
+    height: auto;
+}
+
+.service-item h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.service-item p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+#contact {
+    margin-top: 2rem;
+}
+
+#footer {
+    margin-top: 2rem;
+    background: #000;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+#footer p {
+    margin: 0.5rem 0; 
+}
